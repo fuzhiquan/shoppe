@@ -2,7 +2,7 @@
     <div class="footer-container">
         <div class="footerList">
             <div class="footerItem">
-                <h4>购物指南</h4>
+                <h5>购物指南</h5>
                 <ul class="footerItemCon">
                     <li>购物流程</li>
                     <li>会员介绍</li>
@@ -13,7 +13,7 @@
 
             </div>
             <div class="footerItem">
-                <h4>配送方式</h4>
+                <h5>配送方式</h5>
                 <ul class="footerItemCon">
                     <li>上门自提</li>
                     <li>211限时达</li>
@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div class="footerItem">
-                <h4>支付方式</h4>
+                <h5>支付方式</h5>
                 <ul class="footerItemCon">
                     <li>货到付款</li>
                     <li>在线支付</li>
@@ -33,7 +33,7 @@
                 </ul>
             </div>
             <div class="footerItem">
-                <h4>售后服务</h4>
+                <h5>售后服务</h5>
                 <ul class="footerItemCon">
                     <li>售后政策</li>
                     <li>价格保护</li>
@@ -43,7 +43,7 @@
                 </ul>
             </div>
             <div class="footerItem">
-                <h4>特色服务</h4>
+                <h5>特色服务</h5>
                 <ul class="footerItemCon">
                     <li>夺宝岛</li>
                     <li>DIY装机</li>
@@ -54,7 +54,7 @@
             </div>
             <div class="footerItem">
                 <h4>帮助中心</h4>
-                <img src="./images/wx_cz.png" width="80px" />
+                <img src="./images/wx_cz.png" width="60px" />
             </div>
         </div>
         <div class="copyright">
@@ -105,6 +105,12 @@ export default {
     .footerList {
         display: flex;
         justify-content: space-between;
+
+        .footerItem {
+            .footerItemCon {
+                font-size: 12px;
+            }
+        }
     }
 
     .copyright {
@@ -116,6 +122,7 @@ export default {
         .helpLink {
             display: flex;
             justify-content: center;
+            font-size: 12px;
 
             li {
                 .space {
@@ -126,6 +133,7 @@ export default {
 
         p {
             text-align: center;
+            font-size: 12px;
         }
     }
 }

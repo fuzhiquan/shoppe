@@ -29,6 +29,11 @@ export default {
     .banner {
         display: flex;
         justify-content: space-between;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        background-color: #e3e4e5;
+        border-bottom: 1px solid #ddd;
 
         .typeList a {
             margin-left: 5px;
