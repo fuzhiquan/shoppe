@@ -48,8 +48,8 @@
                     <li>夺宝岛</li>
                     <li>DIY装机</li>
                     <li>延保服务</li>
-                    <li>ShoppeE卡</li>
-                    <li>Shoppe通信</li>
+                    <li>BigShopE卡</li>
+                    <li>BigShop通信</li>
                 </ul>
             </div>
             <div class="footerItem">
