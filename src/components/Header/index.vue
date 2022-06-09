@@ -8,10 +8,10 @@
             <div class="typeList">
                 <a href="###">我的订单</a>
                 <a href="###">我的购物车</a>
-                <a href="###">我的尚品汇</a>
-                <a href="###">尚品汇会员</a>
+                <a href="###">我的Shoppe</a>
+                <a href="###">Shoppe会员</a>
                 <a href="###">企业采购</a>
-                <a href="###">关注尚品汇</a>
+                <a href="###">关注Shoppe</a>
                 <a href="###">合作招商</a>
                 <a href="###">商家后台</a>
             </div>

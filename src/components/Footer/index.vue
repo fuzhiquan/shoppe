@@ -48,46 +48,47 @@
                     <li>夺宝岛</li>
                     <li>DIY装机</li>
                     <li>延保服务</li>
-                    <li>尚品汇E卡</li>
-                    <li>尚品汇通信</li>
+                    <li>ShoppeE卡</li>
+                    <li>Shoppe通信</li>
                 </ul>
             </div>
             <div class="footerItem">
                 <h4>帮助中心</h4>
+                <img src="./images/wx_cz.png" width="80px" />
             </div>
         </div>
         <div class="copyright">
             <ul class="helpLink">
                 <li>关于我们
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>联系我们
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>关于我们
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>商家入驻
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>营销中心
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>友情链接
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>关于我们
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>营销中心
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>友情链接
-                    <span class="space"></span>
+                    <span class="space">|</span>
                 </li>
                 <li>关于我们</li>
             </ul>
-            <p>地址：北京市昌平区宏福科技园综合楼6层</p>
+            <p>地址：北京市昌平区龙泽街道</p>
             <p>京ICP备19006430号</p>
         </div>
     </div>
@@ -107,11 +108,24 @@ export default {
     }
 
     .copyright {
-        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
 
         .helpLink {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+
+            li {
+                .space {
+                    margin: 0 10px;
+                }
+            }
+        }
+
+        p {
+            text-align: center;
         }
     }
 }
